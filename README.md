@@ -2,9 +2,7 @@
 
 Data Center Visualizer
 
-visualize_datacenters.py is a small Python script that reads a Data_Centers_Database as a csv file and produces two charts:
--a geographic map of every facility in terms of latitude and longitude
--a scatter plot of power capacity versus physical footprint.
+visualize_datacenters.py is a small Python script that reads a Data_Centers_Database as a csv file and produces two charts: a geographic map of every facility in terms of latitude and longitude, and a scatter plot of power capacity versus physical footprint.
 
 ## Usage/Commands 
 
