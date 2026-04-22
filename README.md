@@ -26,7 +26,7 @@ This writes two files into the current directory:
 
 ## Expected input columns
 
-The script looks for these columns in the header row (case-sensitive). Missing
+The script looks for these columns in the header row of the csv (case-sensitive). Missing
 optional columns are tolerated; missing `lat` will stop execution with a clear
 error listing the columns that were actually found.
 
