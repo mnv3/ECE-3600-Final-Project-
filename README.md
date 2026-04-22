@@ -42,8 +42,8 @@ error listing the columns that were actually found.
 
 ## What the outputs show
 
-**`datacenters_map.png`** — Every facility plotted at its lat/long across the
-continental US. The marker color encodes project status. The marker area is scaled proportionally to the
+**`datacenters_map.png`** — Every facility plotted at its latitude/longitude across the
+continental US. The marker color shows the project status (operating, suspended, etc.). The marker area is scaled proportionally to the
 square root of `facility_size_sqft`, so a 10 million sqft campus reads as a bigger dot than a 100,000 sqft site without dominating the view entirely. Rows without coordinates or with coordinates outside the continental US bounding box are dropped.
 
-**`datacenters_power_density.png`** — Log-log scatterplot of MW capacity against facility size, colored by status. A dashed reference line at roughly 250 W/sqft (1 MW per 4,000 sqft) marks the typical power density of a modern AI-oriented datacenter. Points well above the line are unusually power-dense, points well below are traditional lower-density colocation facilities.
+**`datacenters_power_density.png`** — Log-log scatterplot of MW capacity against facility size, colored by status. A dashed reference line at roughly 250 W/sqft (1 MW per 4,000 sqft) marks the typical power density of a modern AI datacenter. Points well above the line are unusually power-dense, points well below are traditional lower-density colocation facilities.
